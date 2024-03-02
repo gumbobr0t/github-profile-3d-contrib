@@ -50,7 +50,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Pull latest changes
-        run: git pull origin main
+        run: git pull --force origin main
       - name: Commit & Push
         run: |
           git config user.name github-actions
