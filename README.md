@@ -1,6 +1,6 @@
 # GitHub Profile 3D Contrib.
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-gitblock.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-gitblock.svg)
 
 [日本語](./docs/README.ja-jp.md) | [Español](./docs/README.es-es.md)
 
@@ -45,7 +45,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: gumbobr0t/github-profile-3d-contrib@0.7.1
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -67,7 +67,7 @@ This will add the action to the repository.
 * `GH_TOKEN` : (required) access token
 * `USERNAME` : (required) target user name (or specify with an argument).
 * `MAX_REPOS` : (optional) max repositories, default 100 - since ver. 0.2.0
-* `SETTING_JSON` : (optional) settings json file path. See `sample-settings/*.json` and `src/type.ts` in `yoshi389111/github-profile-3d-contrib` repository for details. - since ver. 0.6.0
+* `SETTING_JSON` : (optional) settings json file path. See `sample-settings/*.json` and `src/type.ts` in `gumbobr0t/github-profile-3d-contrib` repository for details. - since ver. 0.6.0
 
 ### step 3. Manually launch the action
 
@@ -94,31 +94,31 @@ Alternatively, if `SETTING_JSON` is specified, the following image will be gener
 
 example: green version
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-green-animate.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-green-animate.svg)
 
 example: season version (Northern Hemisphere.)
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-season-animate.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-season-animate.svg)
 
 example: season version (Southern Hemisphere.)
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-south-season-animate.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-south-season-animate.svg)
 
 example: night view version
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-night-view.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-night-view.svg)
 
 example: night green version
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-night-green.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-night-green.svg)
 
 example: night rainbow version
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-night-rainbow.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-night-rainbow.svg)
 
 example: git block version
 
-![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-gitblock.svg)
+![svg](https://raw.githubusercontent.com/gumbobr0t/github-profile-3d-contrib/main/docs/demo/profile-gitblock.svg)
 
 ### step 4. Add image to README.md
 
