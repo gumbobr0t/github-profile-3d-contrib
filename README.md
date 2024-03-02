@@ -47,7 +47,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: gumbobr0t/github-profile-3d-contrib@0.7.2
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
