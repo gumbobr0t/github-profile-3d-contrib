@@ -45,7 +45,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      - uses: gumbobr0t/github-profile-3d-contrib@0.7.1
+      - uses: gumbobr0t/github-profile-3d-contrib@0.7.2
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -58,9 +58,7 @@ jobs:
           git push
 ```
 
-Note: If you also want to include the private repository, register the "personal access token" in the repository and set it to GH_TOKEN specified in the workflow file.
-
-This will add the action to the repository.
+**Note: You need to register your [github personal access token](https://github.com/settings/tokens) with the name 'GH_TOKEN' in the repositories secrets under the actions dropdown menu.**
 
 #### Environment variables
 
@@ -127,7 +125,7 @@ Add the path of the generated image to the readme file.
 e.g.
 
 ```md
-![](./profile-3d-contrib/profile-green-animate.svg)
+![](./profile-3d-contrib/profile-night-rainbow.svg)
 ```
 
 ## How to use (GitHub Actions) - Advanced examples
