@@ -32,7 +32,7 @@ The schedule is set to start once a day.
 Please correct the startup time to a convenient time.
 
 ```yaml:.github/workflows/profile-3d.yml
-name: GitHub-Profile-3D-Contrib
+name: GitHub-Profile-3D-Contrib-fixed
 
 on:
   schedule: # 03:00 JST == 18:00 UTC
