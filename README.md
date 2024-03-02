@@ -58,7 +58,7 @@ jobs:
           git push
 ```
 
-**Note: You need to register your [github personal access token](https://github.com/settings/tokens) with the name 'GH_TOKEN' in the repositories secrets under the actions dropdown menu.**
+**Note: You need to register your [github personal access token](https://github.com/settings/tokens) with the name 'GH_TOKEN' in the repositories secrets under the secrets & variables > actions > repository secrets dropdown menu.**
 
 #### Environment variables
 
