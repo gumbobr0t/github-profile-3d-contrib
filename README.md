@@ -59,6 +59,8 @@ jobs:
 ```
 
 **Note: You need to register your [github personal access token](https://github.com/settings/tokens) with the name 'GH_TOKEN' in the repositories secrets under the secrets & variables > actions > repository secrets dropdown menu.**
+Also Check if "Read and write permissions" are enabled in Settings -> Actions -> General -> Workflow permissions:
+![](https://i.stack.imgur.com/A5EEk.png)
 
 #### Environment variables
 
