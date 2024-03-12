@@ -35,8 +35,8 @@ Please correct the startup time to a convenient time.
 name: GitHub-Profile-3D-Contrib-fixed
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 18 * * *"
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
